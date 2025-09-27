@@ -17,8 +17,7 @@ https://johnways.github.io/Hunat-Portfolio/
 
 # Contact Me
 * Email: johnrhaybermudohunat@gmail.com
-* GitHub: github.com/johnways/JohnRhayHunat-WebPortfolio
-
+* GitHub: https://github.com/johnways/Hunat-Portfolio
 
 # Reflection
 # Challenges Faced and Solutions
