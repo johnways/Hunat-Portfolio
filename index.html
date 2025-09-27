@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My Web Portfolio" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="WebPortfolio.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+  
+  </style>
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <img src="Assets/images/MyProfile.png" width="300px" alt="Profile Picture" class="profile-pic zoomable" />
+    <h1>Hello, I'm <span>John Rhay</span></h1>
+    <p>Aspiring Web Developer | Designer | Tech Enthusiast</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>
+      Hi! I’m John Rhay Bermudo Hunat, a passionate web developer with a strong interest in creating dynamic, user-friendly websites...
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <!-- Project One -->
+      <div class="project-card">
+        <img src="Assets/images/activity01.jpg" width="250px" alt="Project One" class="project-img zoomable" />
+        <img src="Assets/images/act02.jpg" width="250px" alt="Project One" class="project-img zoomable" />
+        <img src="Assets/images/act03.jpg" width="250px" alt="Project One" class="project-img zoomable" />
+        <img src="Assets/images/act04.jpg" width="250px" alt="Project One" class="project-img zoomable" />
+        <img src="Assets/images/act06.jpg" width="250px" alt="Project One" class="project-img zoomable" />
+        <h3>Activity 1</h3>
+        <p>Installing and Comparing an Operating System in VirtualBox.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+
+      <!-- Project Two -->
+      <div class="project-card">
+        <img src="Assets/images/act2-1.jpg" alt="Project Two" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/act02-2.jpg" alt="Project Two" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/act02-3.jpg" alt="Project Two" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/act02-4.jpg" alt="Project Two" class="project-img zoomable" width="250px" />
+        <h3>Activity 2</h3>
+        <p>Short description of the project goes here.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+
+      <!-- Group Report -->
+      <div class="project-card">
+        <img src="Assets/images/gr1.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/gr2.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/gr3.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/gr4.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/gr5.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <h3>Group Report</h3>
+        <p>Short description of the project goes here.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+
+      <!-- Group Report -->
+      <div class="project-card">
+        <img src="Assets/images/g1.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/g2.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/g3.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/g4.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/g5.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <img src="Assets/images/g6.jpg" alt="Group Report" class="project-img zoomable" width="250px" />
+        <h3>Group Report</h3>
+        <p>Short description of the project goes here.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+
+      
+      <div class="project-card">
+        <img src="Assets/images/mygit.jpg" width="250px" alt="GitHub Projects" class="project-img zoomable" />
+        <h3>My GitHub</h3>
+        <p>Check out more of my projects on GitHub.</p>
+        <a href="https://github.com/johnways/JohnRhayHunat-WebPortfolio" target="_blank">My GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:johnrhaybermudohunat@gmail.com">johnrhaybermudohunat@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/johnways/JohnRhayHunat-WebPortfolio" target="_blank">github.com/johnways/JohnRhayHunat-WebPortfolio</a></p>
+  </section>
+
+  
+  <footer>
+    <p>&copy; John Rhay Hunat WEB PORTFOLIO.</p>
+  </footer>
+
+
+  <div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg" alt="Zoomed Image" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
