@@ -36,8 +36,6 @@ To overcome this, I carefully followed the step-by-step instructions and also ex
 Through this experience, I learned that GitHub is not as complicated as it first seemed. With patience and practice, I was able to successfully upload my files, set up GitHub Pages, and see my portfolio live online. This challenge taught me the importance of persistence and problem-solving, and it gave me more confidence in using GitHub for future projects.
 
 
-
-
 # Future Improvements
 Although my portfolio is already functional and published, there are several improvements I would like to make in the future. First, I want to enhance the overall design and visual appeal by adding more modern layouts, smoother animations, and better color combinations to make the site more engaging. I also plan to include more interactivity through JavaScript features, such as project filters, dynamic content, and a responsive navigation menu.
 
